@@ -1,0 +1,10 @@
+body{
+    color:blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: yellowgreen;
+    background-color: royalblue;
+    background-image: url(':/images/earth.jpg');
+    height:100%;
+    width:100%
+
+}

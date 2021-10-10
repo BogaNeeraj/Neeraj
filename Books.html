@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>implementing collection of values as set as set in javascript</p>
+    <h1 id="setValue"></h1>
+
+
+    <script>
+        const books = 
+              new Set(["one minute manager<br>","the art of motorcycle<br>","arun and sea stories"]);
+
+        let Letter = " ";
+        books.forEach(function(value)
+        {
+            Letter += value;
+        })
+
+        document.getElementById("setValue").innerHTML = Letter;
+    </script>
+</body>
+</html>
